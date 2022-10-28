@@ -19,14 +19,15 @@ namespace SearchAlgorithm
         {
             while (true)
             {
-                Console.Write("Enter the number of elements in array :");
+                Console.Write("Enter the number of elements in array : ");
                 string s = Console.ReadLine();
                 n = Int32.Parse(s);
                 if ((n > 0) && (n <= 20))
                     break;
                 else
-                    Console.WriteLine()
+                    Console.WriteLine("\n Array should have minimum 1 and maximum 20 elements.\n");
             }
+
         }
     }
 }
